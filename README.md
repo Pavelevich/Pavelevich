@@ -1,43 +1,63 @@
-# Pavelevich
+<div align="center">
 
-I build practical developer tools, security-first automation, and Solana-focused infrastructure.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=220&section=header&text=Pavelevich&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developer%20Tools%20%7C%20Security%20Automation%20%7C%20Solana%20Infrastructure&descAlignY=58&descAlign=50" width="100%" alt="header" />
 
-[![GitHub followers](https://img.shields.io/github/followers/Pavelevich?style=flat-square)](https://github.com/Pavelevich?tab=followers)
-[![GitHub User's stars](https://img.shields.io/github/stars/Pavelevich?affiliations=OWNER&style=flat-square)](https://github.com/Pavelevich?tab=repositories)
+<p>
+  I build practical developer tooling, security-first automation, and high-signal infrastructure products.
+</p>
 
-## Focus Areas
+<p>
+  <a href="https://github.com/Pavelevich?tab=followers"><img src="https://img.shields.io/github/followers/Pavelevich?style=flat-square" alt="followers" /></a>
+  <a href="https://github.com/Pavelevich?tab=repositories"><img src="https://img.shields.io/github/stars/Pavelevich?affiliations=OWNER&style=flat-square" alt="stars" /></a>
+  <img src="https://img.shields.io/badge/Focus-Local%20AI-0f766e?style=flat-square" alt="focus local ai" />
+  <img src="https://img.shields.io/badge/Focus-Security%20Automation-7c3aed?style=flat-square" alt="focus security" />
+  <img src="https://img.shields.io/badge/Focus-Solana%20Infra-1d4ed8?style=flat-square" alt="focus solana" />
+</p>
 
-- Local AI tooling and model operations (Ollama, hardware-aware workflows)
-- Security automation and auditing systems
-- CLI-first products with strong developer experience
-- Blockchain infrastructure and privacy tooling (especially Solana)
+</div>
+
+## What I Work On
+
+- Hardware-aware local AI workflows (especially Ollama operations)
+- Security auditing and reliability automation
+- CLI-first products with strong developer UX
+- Solana infrastructure and privacy-oriented tooling
+
+## Current Priorities
+
+- Expanding production reliability tooling for local inference runtimes
+- Shipping benchmark-driven model routing and placement features
+- Building practical observability utilities for blockchain workflows
 
 ## Featured Projects
 
-| Project | Summary | Tech |
+| Project | Summary | Stack |
 |---|---|---|
-| [llm-checker](https://github.com/Pavelevich/llm-checker) | Advanced CLI that inspects hardware and recommends the best local LLM/sLLM models, with Ollama integration. | Node.js, CLI, Ollama |
-| [moltbot-pi](https://github.com/Pavelevich/moltbot-pi) | Lightweight AI Telegram bot for Raspberry Pi Zero 2W with very low memory footprint. | Python, Raspberry Pi, Telegram |
+| [llm-checker](https://github.com/Pavelevich/llm-checker) | Advanced CLI that inspects hardware and recommends the best local LLM/sLLM models with Ollama integration. | Node.js, CLI, Ollama |
+| [moltbot-pi](https://github.com/Pavelevich/moltbot-pi) | Lightweight AI Telegram bot optimized for Raspberry Pi Zero 2W with low memory usage. | Python, Raspberry Pi, Telegram |
 | [hydra-security](https://github.com/Pavelevich/hydra-security) | Multi-agent security auditing system with adversarial validation and Solana/Anchor specialization. | Node.js, Security Automation |
-| [claw-alexa](https://github.com/Pavelevich/claw-alexa) | Voice control layer for personal AI assistant workflows through Amazon Alexa. | Alexa, Voice UX, Integrations |
-| [tapo-smart-home-cli](https://github.com/Pavelevich/tapo-smart-home-cli) | CLI to control TP-Link TAPO smart home devices (lights, plugs, hubs, sensors). | Node.js, IoT, CLI |
-| [croftondescriptor](https://github.com/Pavelevich/croftondescriptor) | Mathematical tooling around Crofton descriptors for curve and surface measurement in 2D/3D. | Python, Math, Geometry |
+| [claw-alexa](https://github.com/Pavelevich/claw-alexa) | Voice-controlled layer for personal AI assistant workflows through Amazon Alexa. | Alexa, Integrations |
+| [tapo-smart-home-cli](https://github.com/Pavelevich/tapo-smart-home-cli) | CLI for controlling TP-Link TAPO devices (lights, plugs, hubs, sensors). | Node.js, IoT, CLI |
+| [croftondescriptor](https://github.com/Pavelevich/croftondescriptor) | Mathematical toolkit around Crofton descriptors for 2D/3D curve and surface measurement. | Python, Geometry |
 
-## Current Work
+## GitHub Snapshot
 
-- Expanding reliability and production tooling around local AI runtimes
-- Shipping benchmark-driven features for model selection and routing
-- Building privacy and observability utilities for blockchain workflows
+<div align="center">
 
-## Working Style
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Pavelevich&show_icons=true&rank_icon=github&include_all_commits=true&hide_border=true" alt="GitHub stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pavelevich&layout=compact&hide_border=true" alt="Top languages" />
 
-- Build fast, test hard, document clearly
-- Prefer measurable improvements over vague optimization
-- Ship practical tools that save engineers real time
+</div>
 
-## Connect
+## Working Principles
 
-The fastest way to reach me is through issues/discussions in my repositories.
+- Build fast, validate with tests, document clearly
+- Prefer measurable impact over vague optimization
+- Deliver tools that save engineers real time
+
+## Contact
+
+The best way to reach me is through issues or discussions in my repositories.
 
 ---
 
