@@ -21,7 +21,7 @@
 
 ## >>looking beyond inspiration
 
-## Building agentic systems, blockchain infra & hardware hacks from Germany 🇩🇪
+## Building agentic systems, blockchain infra & hardware hacks
 
 </div>
 
@@ -29,11 +29,4 @@
 <div align="left">
   <a href="https://x.com/tetsuoarena" target="_blank">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
-  </a>
-  <a href="https://github.com/tetsuo-ai" target="_blank">
-    <img src="https://img.shields.io/badge/TETSUO_AI-181717?style=for-the-badge&logo=github&logoColor=white" alt="TETSUO AI" />
-  </a>
-  <a href="https://agencone.com" target="_blank">
-    <img src="https://img.shields.io/badge/AGENC_ONE-FF6600?style=for-the-badge&logoColor=white" alt="AGENC ONE" />
-  </a>
 </div>
