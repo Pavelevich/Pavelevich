@@ -57,33 +57,12 @@ $ cat about_me.txt
 
 ---
 
-<!-- GITHUB STATS -->
+<!-- GITHUB STREAK -->
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Pavelevich&show_icons=true&bg_color=000000&title_color=00FF00&text_color=00FF00&icon_color=00FF00&border_color=00FF00&hide_border=false&rank_icon=github" width="49%" />
-<img src="https://streak-stats.demolab.com?user=Pavelevich&theme=matrix" width="49%" />
+<img src="https://streak-stats.demolab.com/?user=Pavelevich&theme=matrix&hide_border=false&border=00FF00" width="60%" />
 
 </div>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pavelevich&layout=compact&bg_color=000000&title_color=00FF00&text_color=00FF00&border_color=00FF00&langs_count=8" width="49%" />
-
-</div>
-
----
-
-<!-- TROPHIES -->
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=Pavelevich&theme=matrix&no-frame=true&no-bg=true&column=7)
-
-</div>
-
----
-
-<!-- ACTIVITY GRAPH -->
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Pavelevich&bg_color=000000&color=00FF00&line=00FF00&point=FFFFFF&area_color=003300&area=true&hide_border=false&custom_title=Contribution%20Matrix)
 
 ---
 
@@ -93,8 +72,6 @@ $ cat about_me.txt
 <div align="left">
 
 <a href="https://x.com/tetsuoarena" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=00FF00" alt="X" /></a>
-<a href="https://github.com/tetsuo-ai" target="_blank"><img src="https://img.shields.io/badge/TETSUO_AI-000000?style=for-the-badge&logo=github&logoColor=00FF00" alt="TETSUO AI" /></a>
-<a href="https://agencone.com" target="_blank"><img src="https://img.shields.io/badge/AGENC_ONE-000000?style=for-the-badge&logoColor=00FF00" alt="AGENC ONE" /></a>
 
 </div>
 
