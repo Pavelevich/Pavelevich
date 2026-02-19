@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&amp;display=swap');
+    </style>
+  </defs>
+  <rect width="1200" height="220" fill="#0D1117"/>
+
+  <!-- Matrix rain columns - animated falling characters -->
+  <g font-family="monospace" font-size="14" fill="#00FF00" opacity="0.15">
+    <!-- Column 1 -->
+    <text x="20" y="0"><animate attributeName="y" from="-200" to="440" dur="4s" repeatCount="indefinite"/>01001</text>
+    <!-- Column 2 -->
+    <text x="60" y="0"><animate attributeName="y" from="-150" to="440" dur="3.2s" repeatCount="indefinite"/>10110</text>
+    <!-- Column 3 -->
+    <text x="100" y="0"><animate attributeName="y" from="-300" to="440" dur="5s" repeatCount="indefinite"/>01110</text>
+    <!-- Column 4 -->
+    <text x="140" y="0"><animate attributeName="y" from="-100" to="440" dur="3.8s" repeatCount="indefinite"/>11001</text>
+    <!-- Column 5 -->
+    <text x="180" y="0"><animate attributeName="y" from="-250" to="440" dur="4.5s" repeatCount="indefinite"/>00101</text>
+    <!-- Column 6 -->
+    <text x="220" y="0"><animate attributeName="y" from="-180" to="440" dur="3.5s" repeatCount="indefinite"/>10011</text>
+    <!-- Column 7 -->
+    <text x="260" y="0"><animate attributeName="y" from="-350" to="440" dur="5.5s" repeatCount="indefinite"/>01010</text>
+    <!-- Column 8 -->
+    <text x="300" y="0"><animate attributeName="y" from="-120" to="440" dur="4.2s" repeatCount="indefinite"/>11100</text>
+    <!-- Column 9 -->
+    <text x="340" y="0"><animate attributeName="y" from="-280" to="440" dur="3.9s" repeatCount="indefinite"/>00110</text>
+    <!-- Column 10 -->
+    <text x="380" y="0"><animate attributeName="y" from="-200" to="440" dur="4.8s" repeatCount="indefinite"/>10101</text>
+    <!-- Column 11 -->
+    <text x="420" y="0"><animate attributeName="y" from="-160" to="440" dur="3.3s" repeatCount="indefinite"/>01100</text>
+    <!-- Column 12 -->
+    <text x="460" y="0"><animate attributeName="y" from="-320" to="440" dur="5.2s" repeatCount="indefinite"/>11010</text>
+    <!-- Column 13 -->
+    <text x="500" y="0"><animate attributeName="y" from="-90" to="440" dur="4.1s" repeatCount="indefinite"/>00011</text>
+    <!-- Column 14 -->
+    <text x="540" y="0"><animate attributeName="y" from="-240" to="440" dur="3.6s" repeatCount="indefinite"/>10001</text>
+    <!-- Column 15 -->
+    <text x="580" y="0"><animate attributeName="y" from="-170" to="440" dur="4.7s" repeatCount="indefinite"/>01011</text>
+    <!-- Column 16 -->
+    <text x="620" y="0"><animate attributeName="y" from="-310" to="440" dur="3.4s" repeatCount="indefinite"/>11111</text>
+    <!-- Column 17 -->
+    <text x="660" y="0"><animate attributeName="y" from="-130" to="440" dur="5.1s" repeatCount="indefinite"/>00100</text>
+    <!-- Column 18 -->
+    <text x="700" y="0"><animate attributeName="y" from="-270" to="440" dur="4.3s" repeatCount="indefinite"/>10010</text>
+    <!-- Column 19 -->
+    <text x="740" y="0"><animate attributeName="y" from="-200" to="440" dur="3.7s" repeatCount="indefinite"/>01101</text>
+    <!-- Column 20 -->
+    <text x="780" y="0"><animate attributeName="y" from="-340" to="440" dur="5.3s" repeatCount="indefinite"/>11011</text>
+    <!-- Column 21 -->
+    <text x="820" y="0"><animate attributeName="y" from="-110" to="440" dur="4.4s" repeatCount="indefinite"/>00010</text>
+    <!-- Column 22 -->
+    <text x="860" y="0"><animate attributeName="y" from="-260" to="440" dur="3.1s" repeatCount="indefinite"/>10100</text>
+    <!-- Column 23 -->
+    <text x="900" y="0"><animate attributeName="y" from="-190" to="440" dur="4.6s" repeatCount="indefinite"/>01001</text>
+    <!-- Column 24 -->
+    <text x="940" y="0"><animate attributeName="y" from="-330" to="440" dur="3.8s" repeatCount="indefinite"/>11110</text>
+    <!-- Column 25 -->
+    <text x="980" y="0"><animate attributeName="y" from="-140" to="440" dur="5.4s" repeatCount="indefinite"/>00111</text>
+    <!-- Column 26 -->
+    <text x="1020" y="0"><animate attributeName="y" from="-220" to="440" dur="4.0s" repeatCount="indefinite"/>10111</text>
+    <!-- Column 27 -->
+    <text x="1060" y="0"><animate attributeName="y" from="-300" to="440" dur="3.5s" repeatCount="indefinite"/>01000</text>
+    <!-- Column 28 -->
+    <text x="1100" y="0"><animate attributeName="y" from="-180" to="440" dur="4.9s" repeatCount="indefinite"/>11000</text>
+    <!-- Column 29 -->
+    <text x="1140" y="0"><animate attributeName="y" from="-250" to="440" dur="3.2s" repeatCount="indefinite"/>00001</text>
+    <!-- Column 30 -->
+    <text x="1175" y="0"><animate attributeName="y" from="-350" to="440" dur="5.0s" repeatCount="indefinite"/>10000</text>
+  </g>
+
+  <!-- Second layer - brighter, different speed -->
+  <g font-family="monospace" font-size="14" fill="#00FF00" opacity="0.25">
+    <text x="40" y="0"><animate attributeName="y" from="-220" to="440" dur="3.0s" repeatCount="indefinite"/>ア</text>
+    <text x="120" y="0"><animate attributeName="y" from="-100" to="440" dur="4.4s" repeatCount="indefinite"/>カ</text>
+    <text x="200" y="0"><animate attributeName="y" from="-300" to="440" dur="3.6s" repeatCount="indefinite"/>サ</text>
+    <text x="280" y="0"><animate attributeName="y" from="-180" to="440" dur="5.2s" repeatCount="indefinite"/>タ</text>
+    <text x="360" y="0"><animate attributeName="y" from="-260" to="440" dur="3.9s" repeatCount="indefinite"/>ナ</text>
+    <text x="440" y="0"><animate attributeName="y" from="-140" to="440" dur="4.7s" repeatCount="indefinite"/>ハ</text>
+    <text x="520" y="0"><animate attributeName="y" from="-320" to="440" dur="3.3s" repeatCount="indefinite"/>マ</text>
+    <text x="600" y="0"><animate attributeName="y" from="-190" to="440" dur="5.5s" repeatCount="indefinite"/>ヤ</text>
+    <text x="680" y="0"><animate attributeName="y" from="-280" to="440" dur="4.1s" repeatCount="indefinite"/>ラ</text>
+    <text x="760" y="0"><animate attributeName="y" from="-150" to="440" dur="3.7s" repeatCount="indefinite"/>ワ</text>
+    <text x="840" y="0"><animate attributeName="y" from="-340" to="440" dur="4.8s" repeatCount="indefinite"/>キ</text>
+    <text x="920" y="0"><animate attributeName="y" from="-210" to="440" dur="3.4s" repeatCount="indefinite"/>シ</text>
+    <text x="1000" y="0"><animate attributeName="y" from="-290" to="440" dur="5.1s" repeatCount="indefinite"/>チ</text>
+    <text x="1080" y="0"><animate attributeName="y" from="-170" to="440" dur="4.3s" repeatCount="indefinite"/>ニ</text>
+    <text x="1160" y="0"><animate attributeName="y" from="-240" to="440" dur="3.8s" repeatCount="indefinite"/>ヒ</text>
+  </g>
+
+  <!-- Third layer - bright streaks -->
+  <g font-family="monospace" font-size="14" fill="#00FF00" opacity="0.4">
+    <text x="80" y="0"><animate attributeName="y" from="-160" to="440" dur="2.8s" repeatCount="indefinite"/>1</text>
+    <text x="240" y="0"><animate attributeName="y" from="-280" to="440" dur="3.1s" repeatCount="indefinite"/>0</text>
+    <text x="400" y="0"><animate attributeName="y" from="-100" to="440" dur="2.5s" repeatCount="indefinite"/>1</text>
+    <text x="560" y="0"><animate attributeName="y" from="-340" to="440" dur="2.9s" repeatCount="indefinite"/>0</text>
+    <text x="720" y="0"><animate attributeName="y" from="-200" to="440" dur="3.3s" repeatCount="indefinite"/>1</text>
+    <text x="880" y="0"><animate attributeName="y" from="-130" to="440" dur="2.7s" repeatCount="indefinite"/>0</text>
+    <text x="1040" y="0"><animate attributeName="y" from="-310" to="440" dur="3.0s" repeatCount="indefinite"/>1</text>
+  </g>
+
+  <!-- Center text -->
+  <text x="600" y="125" text-anchor="middle" font-family="'Fira Code', monospace" font-size="60" font-weight="700" fill="#00FF00" letter-spacing="8">PAVELISKO</text>
+
+  <!-- Glow effect on text -->
+  <text x="600" y="125" text-anchor="middle" font-family="'Fira Code', monospace" font-size="60" font-weight="700" fill="none" stroke="#00FF00" stroke-width="1" opacity="0.5" letter-spacing="8">PAVELISKO</text>
+</svg>
