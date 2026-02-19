@@ -57,15 +57,6 @@ $ cat about_me.txt
 
 ---
 
-<!-- GITHUB STREAK -->
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=Pavelevich&theme=matrix&hide_border=false&border=00FF00" width="60%" />
-
-</div>
-
----
-
 <!-- SOCIALS -->
 ### `> cat socials.txt`
 
