@@ -17,7 +17,7 @@
 $ cat about_me.txt
 
   Name:      Pavelisko
-  Location:  Germany
+  Location:  BLOCK-CHAIN
   Role:      Systems Engineer @ TETSUO
   Stack:     Rust, TypeScript, Python, C++, Swift
   Focus:     AI Agents, Solana, Blockchain, IoT, Privacy
