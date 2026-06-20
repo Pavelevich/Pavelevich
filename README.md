@@ -4,7 +4,7 @@
 <!-- TYPING ANIMATION -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=650&lines=%3E%3Elooking+beyond+inspiration;building+agentic+systems+%26+blockchain+infra;hardware+hacks+from+Germany;follow+the+white+rabbit...)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=650&lines=%3E%3Elooking+beyond+inspiration;building+agentic+systems+%26+blockchain+infra;hardware+%2B+low-level+hacking;follow+the+white+rabbit...)](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Pavelevich&color=00FF00&style=flat-square&label=VISITORS)
 
@@ -13,15 +13,14 @@
 ---
 
 <!-- TERMINAL ABOUT -->
-```bash
-$ cat about_me.txt
 
-  Name:      Pavelisko
-  Location:  BLOCK-CHAIN
-  Role:      Systems Engineer @ TETSUO
-  Stack:     Rust, TypeScript, Python, C++, Swift
-  Focus:     AI Agents, Solana, Blockchain, IoT, Privacy
-  Motto:     ">>looking beyond inspiration"
+```bash
+$ whoami
+
+  Role:    Systems Engineer @ TETSUO
+  Stack:   Rust · TypeScript · Python · C++ · Swift
+  Focus:   AI Agents · Solana · Blockchain · IoT · Privacy
+  Motto:   ">>looking beyond inspiration"
 ```
 
 ---
@@ -52,6 +51,26 @@ $ cat about_me.txt
 <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=00FF00" alt="Three.js" />
 <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=00FF00" alt="Docker" />
 <img src="https://img.shields.io/badge/DigitalOcean-000000?style=for-the-badge&logo=digitalocean&logoColor=00FF00" alt="DigitalOcean" />
+
+</div>
+
+---
+
+<!-- GITHUB STATS -->
+### `> cat stats.log`
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Pavelevich&show_icons=true&hide_border=true&bg_color=000000&title_color=00FF00&icon_color=00FF00&text_color=ffffff&hide_rank=false" alt="GitHub Stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pavelevich&layout=compact&hide_border=true&bg_color=000000&title_color=00FF00&text_color=ffffff" alt="Top Languages" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Pavelevich&hide_border=true&background=000000&stroke=00FF00&ring=00FF00&fire=00FF00&currStreakLabel=00FF00&sideLabels=00FF00&dates=888888&currStreakNum=ffffff&sideNums=ffffff" alt="Streak" />
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Pavelevich&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies" />
 
 </div>
 
