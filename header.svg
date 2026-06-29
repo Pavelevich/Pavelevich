@@ -1,67 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="220" viewBox="0 0 1200 220">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="480" height="480" viewBox="0 0 480 480">
 <defs>
-<style type="text/css"><![CDATA[
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&amp;display=swap');
-.wm{font-family:'Fira Code',monospace;font-weight:700;}
-.sub{font-family:'Fira Code',monospace;font-weight:500;}
-.rain{font-family:'Fira Code',monospace;font-weight:500;}
-@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
-.cursor{animation:blink 1.06s step-end infinite;}
-@keyframes draw{from{stroke-dashoffset:520}to{stroke-dashoffset:0}}
-.underline{stroke-dasharray:520;stroke-dashoffset:520;animation:draw 2.6s cubic-bezier(.22,1,.36,1) .4s forwards;}
-@keyframes glowpulse{0%,100%{opacity:.92}50%{opacity:1}}
-.glow{animation:glowpulse 4.5s ease-in-out infinite;}
-]]></style>
-
-<radialGradient id="vignette" cx="50%" cy="50%" r="75%">
-<stop offset="0%" stop-color="#0D1117" stop-opacity="0"/>
-<stop offset="70%" stop-color="#0D1117" stop-opacity="0"/>
-<stop offset="100%" stop-color="#000000" stop-opacity="0.85"/>
-</radialGradient>
-
-<linearGradient id="centerCalm" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0%" stop-color="#0D1117" stop-opacity="0"/>
-<stop offset="28%" stop-color="#0D1117" stop-opacity="0.92"/>
-<stop offset="50%" stop-color="#0D1117" stop-opacity="0.97"/>
-<stop offset="72%" stop-color="#0D1117" stop-opacity="0.92"/>
+<!-- soft dark disc so the white mark stays visible on any theme -->
+<radialGradient id="bg" cx="50%" cy="50%" r="60%">
+<stop offset="0%" stop-color="#0D1117" stop-opacity="0.95"/>
+<stop offset="55%" stop-color="#0D1117" stop-opacity="0.7"/>
 <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
-</linearGradient>
-
-<linearGradient id="tailFade" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-<stop offset="55%" stop-color="#ffffff" stop-opacity="0.55"/>
-<stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
-</linearGradient>
-<mask id="colMask"><rect x="0" y="0" width="60" height="260" fill="url(#tailFade)"/></mask>
-
-<filter id="neon" x="-60%" y="-60%" width="220%" height="220%">
-<feGaussianBlur in="SourceGraphic" stdDeviation="5" result="b1"/>
-<feGaussianBlur in="SourceGraphic" stdDeviation="11" result="b2"/>
-<feMerge>
-<feMergeNode in="b2"/>
-<feMergeNode in="b1"/>
-<feMergeNode in="SourceGraphic"/>
-</feMerge>
-</filter>
-
-<filter id="softglow" x="-40%" y="-40%" width="180%" height="180%">
-<feGaussianBlur in="SourceGraphic" stdDeviation="1.6"/>
-</filter>
-
-<linearGradient id="wmGrad" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0%" stop-color="#9dffb0"/>
-<stop offset="45%" stop-color="#00FF00"/>
-<stop offset="100%" stop-color="#00AA00"/>
-</linearGradient>
-
-<!-- AGENC brand purple glow -->
-<filter id="pglow" x="-35%" y="-35%" width="170%" height="170%">
-<feGaussianBlur in="SourceGraphic" stdDeviation="5" result="pb1"/>
-<feGaussianBlur in="SourceGraphic" stdDeviation="10" result="pb2"/>
-<feMerge>
-<feMergeNode in="pb2"/>
-<feMergeNode in="pb1"/>
-</feMerge>
+</radialGradient>
+<!-- purple brand halo -->
+<radialGradient id="halo" cx="50%" cy="50%" r="46%">
+<stop offset="0%" stop-color="#BA63EF" stop-opacity="0.38"/>
+<stop offset="65%" stop-color="#BA63EF" stop-opacity="0.08"/>
+<stop offset="100%" stop-color="#BA63EF" stop-opacity="0"/>
+</radialGradient>
+<filter id="pglow" x="-45%" y="-45%" width="190%" height="190%">
+<feGaussianBlur in="SourceGraphic" stdDeviation="6" result="b1"/>
+<feGaussianBlur in="SourceGraphic" stdDeviation="13" result="b2"/>
+<feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/></feMerge>
 </filter>
 
 <!-- AGENC geometric mark (fill inherited from <use>) -->
@@ -76,144 +30,28 @@
 <polygon points="127.26 426.41 101.83 451.84 76.34 426.41 101.77 400.98 127.26 426.41"/>
 <path d="M451.82,152.77l-25.51-25.43-73.15,73.16-101.83-101.83,73.24-73.16L299.09,0l-73.2,73.24L152.7,0l-25.43,25.51,73.16,73.16-34.97,35.01-31.76,31.85-35.06,35.01L25.43,127.34,0,152.77l73.2,73.2L0,299.16l25.43,25.43,73.2-73.2,66.82,66.82,34.97,35.01-73.16,73.2,25.43,25.43,73.2-73.2,73.2,73.2,25.47-25.43-73.24-73.2,66.82-66.78,35.02-35.06,73.15,73.2,25.51-25.43-73.15-73.2,73.15-73.2ZM225.89,321.38l-95.46-95.46,95.46-95.41,95.5,95.41-95.5,95.46Z"/>
 </g>
-
-<!-- AGENC lettering (fill inherited from <use>) -->
-<g id="agWord">
-<path d="M0,115.56c0-29.45,30.85-38.71,60.58-47.97,21.6-7.29,35.9-13.74,35.9-27.21s-12.34-22.16-31.7-22.16c-21.04,0-35.06,12.34-38.99,34.22H3.37C7.57,21.04,31.41.28,65.64.28s54.69,16.55,54.69,46.28v105.75h-23.56v-19.36c-11.22,13.74-28.89,21.88-49.08,21.88-29.17,0-47.68-15.43-47.68-39.27ZM53.01,137.72c17.11,0,34.5-7.57,43.75-20.2v-37.31l.28-12.62c-7.01,7.01-18.23,11.5-30.85,15.99-22.16,7.57-42.64,13.46-42.64,32.26,0,14.02,12.62,21.88,29.45,21.88Z"/>
-<path d="M140.96,77.42C140.96,29.17,166.76.84,203.23.84c22.16,0,39.83,10.94,50.21,31.14V3.37h23.84v144.17c0,38.99-25.8,59.18-66.48,59.18-35.06,0-59.18-15.43-65.35-44.04h23.84c5.05,18.51,19.07,27.49,41.51,27.49,26.37,0,42.35-13.46,42.64-39.55v-27.77c-10.38,19.91-28.05,31.13-50.21,31.13-36.74,0-62.27-28.33-62.27-76.57ZM253.15,77.13c0-37.3-17.95-57.78-44.32-57.78s-44.04,20.2-44.04,58.06,17.67,58.06,44.04,58.06,44.32-20.75,44.32-58.34Z"/>
-<path d="M296.03,77.98c0-48.24,27.49-77.98,67.04-77.98s65.64,27.77,65.64,76.29v3.65h-109.11c.56,37.02,17.67,57.5,43.2,57.5,20.48,0,35.34-13.74,40.95-38.99h23c-6.73,36.46-30.29,57.22-63.95,57.22-39.55,0-66.76-28.61-66.76-77.7ZM320.72,63.11h83.86c-4.21-29.17-19.91-44.88-41.79-44.88s-38.15,16.27-42.07,44.88Z"/>
-<path d="M447.19,3.37h24.12v20.2c10.38-14.03,26.93-22.72,46.28-22.72,31.41,0,52.17,19.92,52.17,50.21v101.26h-24.12V54.98c0-22.72-14.03-35.9-35.62-35.9-16.55,0-30.85,8.41-38.71,21.04v112.2h-24.12V3.37Z"/>
-<path d="M622.11,26.08v100.98h-25.25V26.08h25.25ZM697.84.84v25.24h-75.73V.84h75.73ZM697.84,152.31h-75.73v-25.24h75.73v25.24ZM723.09,26.08v25.24h-25.25v-25.24h25.25ZM723.09,101.82v25.24h-25.25v-25.24h25.25Z"/>
-</g>
 </defs>
 
-<rect x="0" y="0" width="1200" height="220" fill="#0D1117"/>
+<!-- background halo -->
+<rect width="480" height="480" fill="url(#bg)"/>
+<rect width="480" height="480" fill="url(#halo)"/>
 
-<!-- ===== Matrix rain: left third + right third only ===== -->
-<g class="rain" font-size="17" mask="url(#colMask)" opacity="0.85">
-
-<!-- LEFT THIRD -->
-<g transform="translate(40,-260)">
-<g opacity="0.55">
-<text x="0" y="0" fill="#008F11">0<tspan x="0" dy="22">ﾐ</tspan><tspan x="0" dy="22">1</tspan><tspan x="0" dy="22">ﾋ</tspan><tspan x="0" dy="22">0</tspan><tspan x="0" dy="22">ｼ</tspan><tspan x="0" dy="22">ﾊ</tspan></text>
-<text x="0" y="0" dy="-6" fill="#bfffbf">ｳ</text>
-<animateTransform attributeName="transform" type="translate" from="40 -260" to="40 220" dur="11s" repeatCount="indefinite"/>
-</g>
-</g>
-
-<g transform="translate(96,-260)">
-<g opacity="0.4">
-<text x="0" y="0" fill="#00AA00">1<tspan x="0" dy="22">0</tspan><tspan x="0" dy="22">ﾊ</tspan><tspan x="0" dy="22">1</tspan><tspan x="0" dy="22">ｼ</tspan><tspan x="0" dy="22">0</tspan></text>
-<text x="0" y="0" dy="-6" fill="#bfffbf">ﾐ</text>
-<animateTransform attributeName="transform" type="translate" from="96 -300" to="96 220" dur="15s" begin="-4s" repeatCount="indefinite"/>
-</g>
-</g>
-
-<g transform="translate(152,-260)">
-<g opacity="0.6">
-<text x="0" y="0" fill="#008F11">ﾋ<tspan x="0" dy="22">0</tspan><tspan x="0" dy="22">ｳ</tspan><tspan x="0" dy="22">1</tspan><tspan x="0" dy="22">ﾐ</tspan><tspan x="0" dy="22">0</tspan><tspan x="0" dy="22">ﾊ</tspan></text>
-<text x="0" y="0" dy="-6" fill="#d6ffd6">1</text>
-<animateTransform attributeName="transform" type="translate" from="152 -280" to="152 220" dur="9.5s" begin="-2s" repeatCount="indefinite"/>
-</g>
-</g>
-
-<g transform="translate(214,-260)">
-<g opacity="0.32">
-<text x="0" y="0" fill="#00AA00">0<tspan x="0" dy="22">ｼ</tspan><tspan x="0" dy="22">1</tspan><tspan x="0" dy="22">ﾋ</tspan><tspan x="0" dy="22">0</tspan></text>
-<text x="0" y="0" dy="-6" fill="#bfffbf">ｳ</text>
-<animateTransform attributeName="transform" type="translate" from="214 -320" to="214 220" dur="17s" begin="-9s" repeatCount="indefinite"/>
-</g>
-</g>
-
-<!-- left: cyan accent + seeded mid-canvas -->
-<g transform="translate(68,-260)">
-<g opacity="0.3">
-<text x="0" y="0" fill="#0AA3B8">1<tspan x="0" dy="22">0</tspan><tspan x="0" dy="22">ﾐ</tspan><tspan x="0" dy="22">1</tspan><tspan x="0" dy="22">ｼ</tspan></text>
-<text x="0" y="0" dy="-6" fill="#8ff6ff">0</text>
-<animateTransform attributeName="transform" type="translate" from="68 -260" to="68 220" dur="13s" begin="-8s" repeatCount="indefinite"/>
-</g>
-</g>
-
-<g transform="translate(180,-260)">
-<g opacity="0.42">
-<text x="0" y="0" fill="#00AA00">ﾊ<tspan x="0" dy="22">0</tspan><tspan x="0" dy="22">1</tspan><tspan x="0" dy="22">ﾋ</tspan><tspan x="0" dy="22">0</tspan><tspan x="0" dy="22">ｼ</tspan></text>
-<text x="0" y="0" dy="-6" fill="#d6ffd6">1</text>
-<animateTransform attributeName="transform" type="translate" from="180 -260" to="180 220" dur="12s" begin="-9s" repeatCount="indefinite"/>
-</g>
-</g>
-
-<!-- RIGHT THIRD -->
-<g transform="translate(980,-260)">
-<g opacity="0.6">
-<text x="0" y="0" fill="#008F11">ﾊ<tspan x="0" dy="22">1</tspan><tspan x="0" dy="22">ﾐ</tspan><tspan x="0" dy="22">0</tspan><tspan x="0" dy="22">ｼ</tspan><tspan x="0" dy="22">1</tspan><tspan x="0" dy="22">ﾋ</tspan></text>
-<text x="0" y="0" dy="-6" fill="#d6ffd6">0</text>
-<animateTransform attributeName="transform" type="translate" from="980 -290" to="980 220" dur="10.5s" begin="-3s" repeatCount="indefinite"/>
-</g>
-</g>
-
-<g transform="translate(1042,-260)">
-<g opacity="0.38">
-<text x="0" y="0" fill="#00AA00">1<tspan x="0" dy="22">ﾋ</tspan><tspan x="0" dy="22">0</tspan><tspan x="0" dy="22">ｳ</tspan><tspan x="0" dy="22">1</tspan><tspan x="0" dy="22">0</tspan></text>
-<text x="0" y="0" dy="-6" fill="#bfffbf">ﾐ</text>
-<animateTransform attributeName="transform" type="translate" from="1042 -310" to="1042 220" dur="15.5s" begin="-6s" repeatCount="indefinite"/>
-</g>
-</g>
-
-<g transform="translate(1098,-260)">
-<g opacity="0.55">
-<text x="0" y="0" fill="#008F11">0<tspan x="0" dy="22">ﾐ</tspan><tspan x="0" dy="22">1</tspan><tspan x="0" dy="22">ﾊ</tspan><tspan x="0" dy="22">0</tspan><tspan x="0" dy="22">ｼ</tspan><tspan x="0" dy="22">1</tspan></text>
-<text x="0" y="0" dy="-6" fill="#d6ffd6">ｳ</text>
-<animateTransform attributeName="transform" type="translate" from="1098 -270" to="1098 220" dur="9s" begin="-1s" repeatCount="indefinite"/>
-</g>
-</g>
-
-<g transform="translate(1154,-260)">
-<g opacity="0.3">
-<text x="0" y="0" fill="#00AA00">ｼ<tspan x="0" dy="22">0</tspan><tspan x="0" dy="22">1</tspan><tspan x="0" dy="22">ﾋ</tspan><tspan x="0" dy="22">0</tspan></text>
-<text x="0" y="0" dy="-6" fill="#bfffbf">1</text>
-<animateTransform attributeName="transform" type="translate" from="1154 -330" to="1154 220" dur="18s" begin="-7s" repeatCount="indefinite"/>
-</g>
-</g>
-
-<!-- right: extra + cyan accent, seeded mid-canvas -->
-<g transform="translate(1016,-260)">
-<g opacity="0.4">
-<text x="0" y="0" fill="#008F11">0<tspan x="0" dy="22">ﾐ</tspan><tspan x="0" dy="22">1</tspan><tspan x="0" dy="22">ｳ</tspan><tspan x="0" dy="22">0</tspan></text>
-<text x="0" y="0" dy="-6" fill="#d6ffd6">ﾊ</text>
-<animateTransform attributeName="transform" type="translate" from="1016 -260" to="1016 220" dur="12.5s" begin="-8s" repeatCount="indefinite"/>
-</g>
-</g>
-
-<g transform="translate(1126,-260)">
-<g opacity="0.28">
-<text x="0" y="0" fill="#0AA3B8">1<tspan x="0" dy="22">ﾋ</tspan><tspan x="0" dy="22">0</tspan><tspan x="0" dy="22">1</tspan><tspan x="0" dy="22">ﾐ</tspan></text>
-<text x="0" y="0" dy="-6" fill="#8ff6ff">0</text>
-<animateTransform attributeName="transform" type="translate" from="1126 -260" to="1126 220" dur="14s" begin="-7s" repeatCount="indefinite"/>
+<!-- ===== AGENC mark spinning in 3D around its central vertical axis ===== -->
+<!-- origin moved to canvas center; inner scaleX flip (+1 -> 0 -> -1 -> 0 -> +1) = Y-axis rotation -->
+<g transform="translate(240,240)">
+<g>
+<animateTransform attributeName="transform" type="scale"
+values="1 1;0.05 1;-1 1;0.05 1;1 1" keyTimes="0;0.25;0.5;0.75;1"
+calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"
+dur="5.5s" repeatCount="indefinite"/>
+<!-- center the mark on the origin, then scale to display size -->
+<g transform="scale(0.62) translate(-225.91,-225.93)">
+<animate attributeName="opacity" values="1;0.55;1;0.55;1" keyTimes="0;0.25;0.5;0.75;1"
+calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"
+dur="5.5s" repeatCount="indefinite"/>
+<g filter="url(#pglow)" fill="#BA63EF"><use xlink:href="#agIcon"/></g>
+<g fill="#ffffff"><use xlink:href="#agIcon"/></g>
 </g>
 </g>
 </g>
-
-<!-- calm center band so wordmark stays legible -->
-<rect x="0" y="0" width="1200" height="220" fill="url(#centerCalm)"/>
-
-<!-- vignette -->
-<rect x="0" y="0" width="1200" height="220" fill="url(#vignette)"/>
-
-<!-- ===== AGENC logo lockup: icon + lettering, white with purple brand glow ===== -->
-<g class="glow">
-<g filter="url(#pglow)" fill="#BA63EF">
-<use xlink:href="#agIcon" transform="translate(398,48) scale(0.18)"/>
-<use xlink:href="#agWord" transform="translate(500,57) scale(0.42)"/>
-</g>
-<g fill="#ffffff">
-<use xlink:href="#agIcon" transform="translate(398,48) scale(0.18)"/>
-<use xlink:href="#agWord" transform="translate(500,57) scale(0.42)"/>
-</g>
-</g>
-
-<!-- ===== Subtitle + cursor ===== -->
-<g class="sub" font-size="19" letter-spacing="2">
-<text x="600" y="170" text-anchor="middle" fill="#00AA00" filter="url(#softglow)">&gt; systems · agents · blockchain · privacy<tspan dx="8" class="cursor" fill="#00FF00">▋</tspan></text>
-</g>
-
 </svg>
